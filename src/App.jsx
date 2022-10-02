@@ -1,9 +1,12 @@
 import Navbar from "./components/navbar";
+import Pricing from "./components/pricing";
 
 function App() {
   return (
-    <div className=''>
+    <div className='bg-gray-900'>
       <Navbar />
+      <br />
+      <Pricing />
     </div>
   );
 }
