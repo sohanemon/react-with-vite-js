@@ -1,5 +1,11 @@
+import Navbar from "./components/navbar";
+
 function App() {
-  return <div className='text-7xl'>hellow</div>;
+  return (
+    <div className=''>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
